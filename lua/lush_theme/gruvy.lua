@@ -77,7 +77,7 @@ local theme = lush(function()
     DiffDelete                             { bg="#24282f", fg="#3a404c", sp="none", }, -- DiffDelete     xxx ctermfg=12 ctermbg=6 guifg=#3a404c guibg=#24282f guisp=none
     TelescopeResultsDiffDelete             { DiffDelete }, -- TelescopeResultsDiffDelete xxx links to DiffDelete
     DiffText                               { bg="#3e4a47", fg="none", sp="none", }, -- DiffText       xxx cterm=bold ctermbg=9 guifg=none guibg=#3e4a47 guisp=none
-    SignColumn                             { bg="none", fg="#969896", sp="none", }, -- SignColumn     xxx ctermfg=14 ctermbg=242 guifg=#969896 guibg=none guisp=none
+    SignColumn                             { bg="#282a2e", fg="#969896", sp="none", }, -- SignColumn     xxx ctermfg=14 ctermbg=242 guifg=#969896 guibg=none guisp=none
     Conceal                                { bg="#4e545c", fg="#282c34", gui="italic", sp="none", }, -- Conceal        xxx ctermfg=7 ctermbg=242 gui=italic guifg=#282c34 guibg=#4e545c guisp=none
     SpellBad                               { gui="undercurl", sp="red", }, -- SpellBad       xxx ctermbg=9 gui=undercurl guisp=red
     SpellCap                               { gui="undercurl", sp="blue", }, -- SpellCap       xxx ctermbg=12 gui=undercurl guisp=blue
