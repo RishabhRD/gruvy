@@ -54,7 +54,7 @@ local theme = lush(function()
     ElVisualLine                           { StatusLine }, -- ElVisualLine   xxx links to StatusLine
     ElVisual                               { StatusLine }, -- ElVisual       xxx links to StatusLine
     StatusLineNC                           { bg="#3f4349", fg="#969896", sp="none", }, -- StatusLineNC   xxx cterm=reverse guifg=#969896 guibg=#3f4349 guisp=none
-    VertSplit                              { gui="reverse", }, -- VertSplit      xxx cterm=reverse gui=reverse
+    VertSplit                              { gui="", }, -- VertSplit      xxx cterm=reverse gui=reverse
     Title                                  { fg="magenta", gui="bold", }, -- Title          xxx ctermfg=225 gui=bold guifg=magenta
     TSTitle                                { Title }, -- TSTitle        xxx links to Title
     htmlTitle                              { Title }, -- htmlTitle      xxx links to Title
