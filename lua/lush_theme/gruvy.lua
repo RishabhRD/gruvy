@@ -297,7 +297,7 @@ local theme = lush(function()
     luaIn                                  { Operator }, -- luaIn          xxx links to Operator
     luaOperator                            { Operator }, -- luaOperator    xxx links to Operator
     Keyword                                { bg="none", fg="#b294bb", sp="none", }, -- Keyword        xxx guifg=#b294bb guibg=none guisp=none
-    TSKeyword                              { Keyword }, -- TSKeyword      xxx links to Keyword
+    TSKeyword                              { bg="none", fg="#81a2be", sp="none", gui="bold" }, -- TSKeyword      xxx links to Keyword
     TSKeywordFunction                      { Keyword }, -- TSKeywordFunction xxx links to Keyword
     TelescopePreviewSticky                 { Keyword }, -- TelescopePreviewSticky xxx links to Keyword
     javaScriptNull                         { Keyword }, -- javaScriptNull xxx links to Keyword
