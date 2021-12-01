@@ -480,7 +480,7 @@ local theme = lush(function()
     CmpItemAbbrMatchDefault                { fg="#b4b7b4", }, -- CmpItemAbbrMatchDefault xxx guifg=#b4b7b4
     CmpItemAbbrMatch                       { CmpItemAbbrMatchDefault }, -- CmpItemAbbrMatch xxx links to CmpItemAbbrMatchDefault
     CmpItemAbbrMatchFuzzyDefault           { fg="#b4b7b4", }, -- CmpItemAbbrMatchFuzzyDefault xxx guifg=#b4b7b4
-    CmpItemKindDefault                     { fg="#ffa500", }, -- CmpItemKindDefault xxx guifg=#ffa500
+    CmpItemKindDefault                     { fg="#d484ff", }, -- CmpItemKindDefault xxx guifg=#ffa500
     CmpItemMenuDefault                     { fg="#b4b7b4", }, -- CmpItemMenuDefault xxx guifg=#b4b7b4
     CmpItemAbbr                            { bg="none", fg="#b0b1b0", sp="none", }, -- CmpItemAbbr    xxx guifg=#b0b1b0 guibg=none guisp=none
     CmpItemAbbrDeprecated                  { bg="none", fg="#d98c8c", sp="none", }, -- CmpItemAbbrDeprecated xxx guifg=#d98c8c guibg=none guisp=none
