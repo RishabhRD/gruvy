@@ -429,7 +429,7 @@ local theme = lush(function()
     DiagnosticUnderlineWarn                { gui="underline", sp="orange", }, -- DiagnosticUnderlineWarn xxx cterm=underline gui=underline guisp=orange
     DiagnosticUnderlineInfo                { gui="underline", sp="lightblue", }, -- DiagnosticUnderlineInfo xxx cterm=underline gui=underline guisp=lightblue
     DiagnosticUnderlineHint                { gui="underline", sp="lightgrey", }, -- DiagnosticUnderlineHint xxx cterm=underline gui=underline guisp=lightgrey
-    MatchParen                             { bg="none", fg="#8abeb7", sp="none", }, -- MatchParen     xxx ctermbg=6 guifg=#8abeb7 guibg=none guisp=none
+    MatchParen                             { bg="#4e545c", fg="white", sp="none",}, -- MatchParen     xxx ctermbg=6 guifg=#8abeb7 guibg=none guisp=none
     Comment                                { bg="none", fg="#b0b1b0", gui="italic", sp="none", }, -- Comment        xxx ctermfg=14 gui=italic guifg=#b0b1b0 guibg=none guisp=none
     TSComment                              { Comment }, -- TSComment      xxx links to Comment
     TelescopeResultsComment                { Comment }, -- TelescopeResultsComment xxx links to Comment
