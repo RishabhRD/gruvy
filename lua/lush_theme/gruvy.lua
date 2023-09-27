@@ -114,8 +114,8 @@ local theme = lush(function()
     NotifyINFOBody                         { Normal }, -- NotifyINFOBody xxx links to Normal
     NotifyDEBUGBody                        { Normal }, -- NotifyDEBUGBody xxx links to Normal
     NotifyTRACEBody                        { Normal }, -- NotifyTRACEBody xxx links to Normal
-    FloatShadow                            { bg="black", blend="80", }, -- FloatShadow    xxx guibg=black blend=80
-    FloatShadowThrough                     { bg="black", blend="100", }, -- FloatShadowThrough xxx guibg=black blend=100
+    FloatShadow                            { bg="black", blend=80, }, -- FloatShadow    xxx guibg=black blend=80
+    FloatShadowThrough                     { bg="black", blend=100, }, -- FloatShadowThrough xxx guibg=black blend=100
     Error                                  { bg="none", fg="#d98c8c", gui="bold", sp="none", }, -- Error          xxx ctermfg=15 ctermbg=9 gui=bold guifg=#d98c8c guibg=none guisp=none
     NvimInvalid                            { Error }, -- NvimInvalid    xxx links to Error
     TSQueryLinterError                     { Error }, -- TSQueryLinterError xxx links to Error
